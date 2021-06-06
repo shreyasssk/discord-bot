@@ -1,15 +1,25 @@
 {
-  "name": "bot1",
+  "name": "discord-bot",
   "version": "1.0.0",
+  "description": "A simple discord bot built using discord.js",
   "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "node src/bot.js",
-    "start:dev": "nodemon src/app.js"
-  },
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0"
-  }
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasssk/discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyasssk/discord-bot/issues"
+  },
+  "homepage": "https://github.com/shreyasssk/discord-bot#readme"
 }
